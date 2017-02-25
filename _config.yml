@@ -1,0 +1,37 @@
+# Site settings
+name: Less Or More
+email: qingyumy@outlook.com
+author: Qingyu Mo
+url: 
+resume_site: 
+github: https://github.com/qingyumy/
+baseurl: "/LessOrMore"
+description: Actually, less is more!
+meta_description: 墨清宇;个人博客;学而不思则罔;思而不学则殆
+motto: It's our wits that make us men.
+banner: 学而不思则罔，思而不学则殆。
+
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+paginate: 10
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+github_username: qingyumy
+highlighter: Pygments
+
+# Build settings
+markdown: kramdown
+
+FB:
+  comments :
+    provider : duoshuo
+    duoshuo:
+        short_name : qingyumy
+    disqus :
+        short_name : moqing
+    # facebook :
+    #   appid : 123
+    #   num_posts: 5
+    #   width: 580
+    #   colorscheme: light
